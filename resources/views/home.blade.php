@@ -1,6 +1,21 @@
 @extends('layouts.app')
-
 @section('content')
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="">
+        </div>
+        <div class="info">
+         <a href="#" class="d-block">{{ Auth::user()->name }}</a>
+        </div>
+      </div>
+
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <div class="content-header">

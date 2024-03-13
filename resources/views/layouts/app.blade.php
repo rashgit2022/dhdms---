@@ -14,7 +14,11 @@
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
     <!-- Scripts -->
-    @vite(['public/sass/app.scss', 'public/js/app.js'])
+    @vite(['public/sass/app.scss','public/js/app.js']) 
+
+    
+    <!-- style -->
+    <link href="{{ asset('public/css/app.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
